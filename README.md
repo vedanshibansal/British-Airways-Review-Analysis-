@@ -13,6 +13,7 @@ With real passenger ratings and feedback, we explored:
 
 To visualize these insights, we built an **interactive Tableau dashboard** that allows users to explore trends and passenger satisfaction metrics. Let’s dive in! 🚀  
 
+https://public.tableau.com/views/BritishAirways_17421824344420/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 ---
 
 ## 📂 Understanding the Data  
@@ -25,6 +26,9 @@ Contains real passenger feedback, including:
 - **Traveler Type** – Business, Leisure, Solo, or Family Travelers.  
 - **Seat Type** – Economy, Business, First Class, or Premium Economy.  
 - **Ratings (1-5 scale) for:**
+
+   ![Ratings](https://github.com/vedanshibansal/British-Airways-Review-Analysis-/blob/23490dd5f437a96f663a2fc6c2d9bfa069fcd68e/Average%20Ratings "Average Ratings")
+  
   - **Overall Rating** ⭐ (Avg: 4.19)  
   - **Seat Comfort** 🛋️ (Avg: 2.87)  
   - **Cabin Staff Service** 👩‍✈️ (Avg: 3.28)  
@@ -42,7 +46,6 @@ Contains real passenger feedback, including:
 ## 🛠 Data Processing & Preparation  
 
 To make the data **ready for visualization in Tableau**, we:  
-✔ **Merged Data** – Used `XLOOKUP` to link reviews with aircraft models & flight routes.  
 ✔ **Cleaned Data** – Removed incomplete ratings & fixed inconsistencies.  
 ✔ **Calculated Metrics** – Found **average ratings by month, country, and aircraft type**.  
 ✔ **Mapped Data** – Connected reviews to geographic locations for **better visualization**.  
@@ -59,7 +62,7 @@ To make the data **ready for visualization in Tableau**, we:
 - **Premium Economy (4.22/5)** sits between Business and Economy in overall satisfaction.  
 
 ### 2️⃣ What are the strongest & weakest parts of British Airways service? 📊  
-📌 _Insert Screenshot of Service Ratings Breakdown_
+
 
 - **Best-rated category:** Cabin Crew Service (**3.28/5**) 🏆  
 - **Worst-rated category:** Entertainment (**1.44/5**) ❌  
