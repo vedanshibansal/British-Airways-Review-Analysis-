@@ -13,7 +13,10 @@ With real passenger ratings and feedback, we explored:
 
 To visualize these insights, we built an **interactive Tableau dashboard** that allows users to explore trends and passenger satisfaction metrics. Let’s dive in! 🚀  
 
-https://public.tableau.com/views/BritishAirways_17421824344420/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+![Dashboard ](https://github.com/vedanshibansal/British-Airways-Review-Analysis-/blob/3768bf16c481d7eb3330c4b5050e930253a51532/Dashboard%201%20(2).png)
+
+[Visit British Airways Tableau  Dashboard](https://public.tableau.com/views/BritishAirways_17421824344420/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 ---
 
 ## 📂 Understanding the Data  
@@ -48,52 +51,48 @@ Contains real passenger feedback, including:
 To make the data **ready for visualization in Tableau**, we:  
 ✔ **Cleaned Data** – Removed incomplete ratings & fixed inconsistencies.  
 ✔ **Calculated Metrics** – Found **average ratings by month, country, and aircraft type**.  
+
+![Filters](https://github.com/vedanshibansal/British-Airways-Review-Analysis-/blob/3768bf16c481d7eb3330c4b5050e930253a51532/Filters "Filters")
+![Filters](https://github.com/vedanshibansal/British-Airways-Review-Analysis-/blob/3768bf16c481d7eb3330c4b5050e930253a51532/Filters%202 "Filters")
+
 ✔ **Mapped Data** – Connected reviews to geographic locations for **better visualization**.  
 
 ---
 
 ## 📈 Key Insights from the Data  
 
-### 1️⃣ Which travel class gets the best ratings? 💺  
-📌 _Insert Screenshot of Class Ratings Comparison_
+### 1️⃣ How does British Airways perform across different service categories? 💺🍽️🎬  
+![Service Categories](https://github.com/vedanshibansal/British-Airways-Review-Analysis-/blob/3768bf16c481d7eb3330c4b5050e930253a51532/Average%20Ratings)  
 
-- **First Class (4.39/5)** and **Economy (4.36/5)** are the highest-rated.  
-- **Business Class (3.93/5)** ranks lower on **value for money**.  
-- **Premium Economy (4.22/5)** sits between Business and Economy in overall satisfaction.  
+- **Best-rated category:** Cabin Staff Service (**Avg: 3.28/5**) 🏆  
+- **Worst-rated category:** Entertainment (**Avg: 1.44/5**) ❌  
+- **Food & Beverages** receive consistently **low ratings (Avg: 2.38/5)**, showing **room for improvement**.  
 
-### 2️⃣ What are the strongest & weakest parts of British Airways service? 📊  
+### 2️⃣ Which aircraft models receive the best and worst ratings? ✈️  
+![Aircraft Ratings](https://github.com/vedanshibansal/British-Airways-Review-Analysis-/blob/3768bf16c481d7eb3330c4b5050e930253a51532/Aircraft%20Ratings)  
+- **Highest-rated aircraft:** Boeing 747-400 (**4.7/5**) and Boeing 787 (**4.4/5**).  
+- **Lowest-rated aircraft:** A321 and Boeing 777-200, which score **below 4.0/5**.  
+- **Newer aircraft generally perform better** than older models in comfort and overall rating.  
 
+### 3️⃣ How do different countries rate their British Airways experience? 🌍  
+![Country Ratings](https://github.com/vedanshibansal/British-Airways-Review-Analysis-/blob/3768bf16c481d7eb3330c4b5050e930253a51532/Country%20Ratings)  
 
-- **Best-rated category:** Cabin Crew Service (**3.28/5**) 🏆  
-- **Worst-rated category:** Entertainment (**1.44/5**) ❌  
-- **Food & Beverages (2.38/5)** remains a consistent **area of dissatisfaction**.  
+- **Best-rated flights:** Routes to **Czechia, Taiwan, and Turkey** show the highest satisfaction.  
+- **Lowest-rated flights:** Passengers flying to **Australia and Belgium** report **lower satisfaction**, especially with **food and seat comfort**.  
+- **Flights to Asia** generally receive **better ratings** than flights within Europe or to the US.  
 
-### 3️⃣ Which aircraft models are rated the highest? ✈️  
-📌 _Insert Screenshot of Aircraft Comfort Scores_
+### 4️⃣ How do ratings change over time? 📅  
+![Monthly Ratings Trend](https://github.com/vedanshibansal/British-Airways-Review-Analysis-/blob/3768bf16c481d7eb3330c4b5050e930253a51532/Month-wise%20Ratings)  
 
-- **Top-rated aircraft:** Airbus A350, Boeing 787 Dreamliner, and Embraer E-190.  
-- **Lowest-rated aircraft:** Older Boeing 747s, A319s, and certain A320 variants.  
-- **Bigger aircraft (A380 & B777)** score higher on comfort but aren't necessarily the best-rated overall.  
-
-### 4️⃣ How do different countries rate British Airways? 🌍  
-📌 _Insert Screenshot of Global Ratings Heatmap_
-
-- **Best-rated flights:** Czechia (9.5/10), Taiwan, and Turkey.  
-- **Worst-rated flights:** Australia (4.18/10), Belgium (2.4/10) – mostly due to **seat comfort and food complaints**.  
-- **Flights to Asia** tend to receive **better ratings** than flights within Europe or to the US.  
-
-### 5️⃣ How do ratings change over time? 📅  
-📌 _Insert Screenshot of Monthly Ratings Trend_
-
-- **March & September** consistently have **higher ratings**.  
-- **December-January** sees lower ratings, likely due to **holiday travel congestion and delays**.  
-- **No long-term trend** of improvement—ratings fluctuate based on the season.  
+- **Ratings fluctuate significantly over time**, with notable **peaks and drops**.  
+- **March & September** consistently have the **best ratings**.  
+- **December-January** tends to have **lower ratings**, likely due to **holiday travel congestion and delays**.  
 
 ---
 
 ## 📊 Final Dashboard – Bringing It All Together  
-
-📌 _Insert Screenshot of Full Tableau Dashboard_  
+![Dashboard with filters Applied](https://github.com/vedanshibansal/British-Airways-Review-Analysis-/blob/3768bf16c481d7eb3330c4b5050e930253a51532/Dashboard%201%20(3).png) 
+  
 
 This **interactive Tableau dashboard** allows users to:  
 ✅ **Filter by seat type, traveler type, aircraft model, and country.**  
@@ -108,14 +107,13 @@ This **interactive Tableau dashboard** allows users to:
 📁 **BritishAirways.twbx** – The **interactive Tableau dashboard**.  
 📁 **ba_reviews.xlsx** – The **raw customer ratings dataset**.  
 📁 **Countries.xlsx** – **Geographic mapping dataset**.  
-📁 **visualizations/** – **Screenshots of key dashboard insights**.  
 
 ---
 
 ## 🔧 How to Use This Dashboard  
 
 1️⃣ Open **BritishAirways.twbx** in **Tableau Desktop**.  
-2️⃣ Explore **filters & interactive charts** to analyze passenger feedback.  
+2️⃣ Explore **filters & interactive charts** to analyze passenger feedback. 
 3️⃣ Gain insights into **travel experience, service quality & satisfaction trends**.  
 
 ---
@@ -127,18 +125,6 @@ This **interactive Tableau dashboard** allows users to:
 📌 **Compare British Airways with competitors** for industry-wide benchmarking.  
 
 ---
-
-## 🎯 Contribute & Explore  
-
-This project turns real passenger ratings into insights using **Tableau**.  
-Want to contribute? **Fork the repo** & share your analysis! 🚀  
-
-📌 **GitHub Repo:** [Your GitHub Link Here]  
-
----
-
-👨‍💻 **Author:** [Your Name]  
-📧 **Contact:** [Your Email]  
 
 🌟 **If you found this project useful, consider starring ⭐ the repository!**  
 
